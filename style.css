@@ -1,0 +1,56 @@
+body
+	{
+		background-image:url("fashion.jpg");
+		background-repeat:repeat-x;
+		background-attachment:scroll;
+		background-size:cover;
+	}
+.one
+	{
+		color:slateblue;
+		text-align: center;
+		font-family:"Courier New";
+		
+	 	
+	}
+.sec
+	{
+		font-size:medium;
+	}
+ul
+	{
+		list-style:none;
+		top:10px;
+		bottom:10px;
+		overflow: hidden;
+	}
+li
+	{
+		float:left;
+	}
+ul li a 
+	{
+		width:20px;
+		height:20px;
+		font-size:20px;
+		display:block;
+		position:sticky;
+		padding:10px;
+		margin:0 10px;
+		border:1px solid black;
+		border-radius:50%;
+		
+	}
+ul li a.fa
+	{
+		position:sticky;
+	}
+ul li a:hover .fa
+	{
+		transform:rotatey(360deg);
+	}
+.sec
+	{
+		font-size:15px;
+		font-family:"Courier New";
+	}
