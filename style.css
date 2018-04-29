@@ -1,17 +1,24 @@
 body
 	{
-		background-image:url("fashion.jpg");
+		background-image:url("sunrise.jpg");
 		background-repeat:repeat-x;
 		background-attachment:scroll;
 		background-size:cover;
 	}
+
 .one
+	{
+		color:purple;
+		text-align: center;
+		font-family:"Courier New";
+		font-size:40px;
+	}
+.two
 	{
 		color:slateblue;
 		text-align: center;
 		font-family:"Courier New";
-		
-	 	
+		font-size:20px;
 	}
 .sec
 	{
@@ -33,11 +40,13 @@ ul li a
 		width:20px;
 		height:20px;
 		font-size:20px;
+		color:purple;
+		background-color:lavender;
 		display:block;
 		position:sticky;
 		padding:10px;
 		margin:0 10px;
-		border:1px solid black;
+		border:2px solid purple;
 		border-radius:50%;
 		
 	}
@@ -45,10 +54,17 @@ ul li a.fa
 	{
 		position:sticky;
 	}
-ul li a:hover .fa
+ul li a:hover
 	{
-		transform:rotatey(360deg);
+		background-color:lavender;
+		-webkit-transition:transform 0.3s ease-out;
+		transform:rotate(360deg);
 	}
+
+ul li a:hover:after
+	{
+		
+	
 .sec
 	{
 		font-size:15px;
